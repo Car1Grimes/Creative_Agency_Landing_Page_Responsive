@@ -86,12 +86,19 @@ a {
   padding-top: 55px;
 }
 
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero__title {
   font-family: "Public Sans", sans-serif;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.33;
   color: #152427;
+  text-align: center;
 }
 
 .hero__desc {
@@ -101,6 +108,7 @@ a {
   line-height: 1.71;
   margin-top: 10px;
   color: #575d5e;
+  text-align: center;
 }
 
 .hero__cta {
@@ -171,7 +179,7 @@ a {
   bottom: -20px;
   right: 5px;
 }
-/* ---------------------------------------------------- Header --------------------------------------------------- */
+/* ---------------------------------------------------- Sponsors --------------------------------------------------- */
 .sponsors {
   display: flex;
   gap: 31px;
@@ -222,4 +230,134 @@ a {
   font-size: 1.7rem;
   letter-spacing: 0.105em;
   margin-left: 14px;
+}
+/* ---------------------------------------------------- Services --------------------------------------------------- */
+.services {
+  margin-top: 107px;
+}
+
+.service-top {
+  position: relative;
+}
+
+.service__title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.62;
+  color: #152427;
+  margin-left: 21px;
+}
+
+.service__title::before {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  left: -21px;
+  content: "";
+  width: 25px;
+  height: 1px;
+  background: #152427;
+}
+
+.service__sub-title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.33;
+  color: #152427;
+  margin-top: 4px;
+}
+
+.service__sub-title::after {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  content: "";
+  width: 66px;
+  height: 2px;
+  background: #152427;
+  margin-left: 10px;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: -230px;
+  left: 0;
+}
+
+.controls__btn--right {
+  position: absolute;
+  right: -90vw;
+  transform: translateX(-150%);
+}
+
+.controls__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #e2eddf;
+  color: #143c3c;
+}
+
+.controls__btn:hover {
+  background: #143c3c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.service__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.service-list {
+  margin-top: 50px;
+}
+
+.service__item {
+  width: 260px;
+}
+
+.service__item:hover {
+  box-shadow: 0px 2px 12px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 2px 12px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 12px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+.service__img {
+  width: 260px;
+  height: 224px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.service__img:hover {
+  opacity: 0.9;
+}
+
+.service__info {
+  padding: 16.91px 12.68px 27px;
+  box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+  -webkit-box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+  -moz-box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+  border-radius: 0 0 20px 20px;
+}
+
+.service__item__name {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.22;
+  color: #152427;
+}
+
+.service__item__desc {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2;
+  color: #7d8188;
+  margin-top: 6.09px;
 }
