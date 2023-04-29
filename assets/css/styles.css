@@ -171,3 +171,55 @@ a {
   bottom: -20px;
   right: 5px;
 }
+/* ---------------------------------------------------- Header --------------------------------------------------- */
+.sponsors {
+  display: flex;
+  gap: 31px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 128px;
+  padding: 55px 28px;
+  background: #e2eddf;
+  border-radius: 30px;
+}
+
+.sponsor__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sponsor's styles */
+
+.sponsor__google {
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #143c3c;
+}
+
+.sponsor__slack {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #143c3c;
+  margin-left: 11.45px;
+}
+
+.sponsor__dis {
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: #163c35;
+  margin-left: 4px;
+}
+
+.sponsor__rio {
+  font-family: "Sonsie One", cursive;
+  font-size: 1.7rem;
+  color: #143c3c;
+}
+
+.sponsor__heroku {
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 0.105em;
+  margin-left: 14px;
+}
