@@ -10,3 +10,164 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
+
+/* ---------------------------------------------------- Mutual Styles ------------------------------------------------ */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 92px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  color: #fff;
+  background: #143c3c;
+  text-align: center;
+  border-radius: 999px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.style__group--top,
+.style__group--bottom {
+  position: absolute;
+}
+
+.style__union--top,
+.style__union--bottom {
+  position: absolute;
+}
+
+.style__union--top {
+  left: -10px;
+}
+
+.style__union--bottom {
+  bottom: 8px;
+  right: -8px;
+}
+/* ---------------------------------------------------- Header --------------------------------------------------- */
+.header {
+  padding-top: 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7.65px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__cta {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  margin-left: 25px;
+}
+
+.hero {
+  padding-top: 55px;
+}
+
+.hero__title {
+  font-family: "Public Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.33;
+  color: #152427;
+}
+
+.hero__desc {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.71;
+  margin-top: 10px;
+  color: #575d5e;
+}
+
+.hero__cta {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hero__btn {
+  width: 107px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.hero__video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #83a17d;
+  margin-left: 30px;
+}
+
+.hero__video-wrapper {
+  position: absolute;
+  left: -6px;
+}
+
+.hero__video__text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.14;
+  color: #152427;
+  margin-left: 9px;
+}
+
+.hero__illustration {
+  margin-top: 67px;
+}
+
+.hero__images {
+  display: flex;
+  justify-content: center;
+  gap: 8.45px;
+  position: relative;
+}
+
+.hero__img {
+  width: 85.35px;
+  height: 197px;
+  object-fit: cover;
+  border-radius: 110px;
+}
+
+.hero__img--lower {
+  position: relative;
+  bottom: -33px;
+}
+
+.hero__style--top {
+  top: -20px;
+  left: 5px;
+}
+
+.hero__style--bottom {
+  bottom: -20px;
+  right: 5px;
+}
