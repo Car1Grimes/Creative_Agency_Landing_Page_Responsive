@@ -41,6 +41,7 @@ a {
 .style__group--top,
 .style__group--bottom {
   position: absolute;
+  z-index: 1;
 }
 
 .style__union--top,
@@ -178,6 +179,7 @@ a {
 .hero__style--bottom {
   bottom: -20px;
   right: 5px;
+  transform: rotate(175.95deg);
 }
 /* ---------------------------------------------------- Sponsors --------------------------------------------------- */
 .sponsors {
@@ -360,4 +362,227 @@ a {
   line-height: 2;
   color: #7d8188;
   margin-top: 6.09px;
+}
+/* ---------------------------------------------------- About Us --------------------------------------------------- */
+.about-us {
+  margin-top: 50.62px;
+}
+
+.about-us__images {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-us__images-wrap {
+  display: flex;
+  gap: 11.26px;
+}
+
+.about-us__img {
+  width: 152.33px;
+  height: 257.46px;
+  object-fit: cover;
+  border-radius: 999px;
+}
+
+.about-us__img--lower {
+  position: relative;
+  bottom: -41.3px;
+}
+
+.about-us__style__union {
+  width: 38.12px;
+  height: 38.12px;
+  left: -20px;
+}
+
+.about-us__style__string {
+  width: 286.96px;
+  height: 190.87px;
+}
+
+.about-us__group--top {
+  left: -10px;
+  top: 20px;
+  transform: rotate(12.64deg);
+}
+
+/* About us card */
+.about-us__card-wrapper {
+  position: relative;
+}
+
+.about-us__card {
+  position: absolute;
+  bottom: -92px;
+  right: 5px;
+  width: 143px;
+  height: 144px;
+  box-shadow: 0px 7px 54px rgba(154, 154, 154, 0.25);
+  border-radius: 8px;
+  background: #fff;
+  padding: 19px 23px 12px;
+}
+
+.about-us__card__name {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #152427;
+}
+
+.about-us__card__desc {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #575d5e;
+  margin-top: 6px;
+}
+
+.about-us__status {
+  padding: 10px 0 6px 0;
+}
+
+.about-us__percentage {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #152427;
+}
+
+.about-us__status-bar {
+  width: 96px;
+  height: 2px;
+  border-radius: 99px;
+  background: #eaeaea;
+  margin-top: 3px;
+}
+
+.about-us__status-bar--short {
+  width: 40%;
+  height: 2px;
+  border-radius: 99px;
+  background: #83a17d;
+}
+
+.about-us__card__loading {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #152427;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.about-us__card__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #eaeaea;
+}
+
+.about-us__card__circle--small {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #143c3c;
+}
+
+.about-us__card__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.about-us__card__bottom-text {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #152427;
+}
+
+.about-us__card__avt-wrap {
+  display: flex;
+}
+
+.about-us__card__avt {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -6px;
+}
+
+/*  */
+.about-us__content {
+  margin-top: 156.92px;
+}
+
+.about-us__title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.12;
+  color: #152427;
+  margin-left: 21px;
+}
+
+.about-us__title::before {
+  display: inline-block;
+  width: 25px;
+  height: 1px;
+  content: "";
+  position: relative;
+  top: -5px;
+  left: -21px;
+  background: #152427;
+}
+
+.about-us__sub-title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.33;
+  color: #152427;
+  margin-top: 12px;
+}
+
+.about-us__desc {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #7d8188;
+  margin-top: 12px;
+}
+
+.about-us__stats {
+  padding: 30px 0;
+}
+
+.about-us__stats-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #83a17d;
+}
+
+.about-us__stats__percentage {
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 2;
+  color: #152427;
+}
+
+.about-us__stats__desc {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2;
+  color: #7d8188;
+  margin-left: 15px;
 }
